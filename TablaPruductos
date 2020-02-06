@@ -1,0 +1,6 @@
+CREATE TABLE `hibernate`.`productos` (
+  `Item` INT NOT NULL,
+  `Nombre` VARCHAR(45) NULL,
+  `Cantidad` INT NULL,
+  `CodigoInventario` INT NULL,
+  PRIMARY KEY (`Item`));
